@@ -1,47 +1,41 @@
-# TypeScript Next.js example
+<h1 align="center">Minecraft in React!</h1>
+<p align="center">Developing a <a href="https://www.minecraft.net/pt-br">Minecraft</a> clone with <a href="https://nextjs.org/">Next.js</a> and <a href="https://threejs.org/">Three.js</a>.</p>
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+## About
+This project was developed using React.js and Three.js, a powerful tool for bringing 3D things to the Browser!
 
-## Deploy your own
+## Technologies
+- [x] Next.js;
+- [x] Three.js;
+- [x] [Zustand](https://zustand-demo.pmnd.rs/) (State management);
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+## Credits
+This project was developed following the tutorial provided by [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp) instructed by [Daniel Bark](https://www.youtube.com/channel/UCgUCptbp4T5saC5WXePe1sw). 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+Here's the [source code](https://github.com/danba340/minecraft-react) of the original project!
 
-## How to use it?
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
+## How to execute?
+First, you need to install the project dependencies
 ```bash
-npx create-next-app --example with-typescript with-typescript-app
+npm install
+# OR
+yarn install
 ```
 
+If you want to run in development environment, you can run:
 ```bash
-yarn create next-app --example with-typescript with-typescript-app
+npm run dev
+# OR
+yarn dev
 ```
 
+Or if you want to run in production environment:
 ```bash
-pnpm create next-app --example with-typescript with-typescript-app
+# Build first then run
+npm run build && npm start
+# OR
+yarn build && yarn start
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
-
-```
-npm install --save-dev typescript
-```
-
-To enable TypeScript's features, we install the type declarations for React and Node.
-
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
-
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
-
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
-
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+## Show your support
+Give this project a ⭐ if you like to support me to make more projects like this!

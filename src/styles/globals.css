@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #__next {
+    @apply bg-blue-100 w-full h-full m-0 p-0 select-none overflow-hidden;
+  }
+
+  body {
+    @apply fixed overflow-hidden text-4xl overscroll-y-none;
+
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  }
+}
